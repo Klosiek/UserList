@@ -1,8 +1,12 @@
-import * as Types from "./HomePage.types";
+import UsersList from "components/UsersList";
 import * as Styles from "./HomePage.styles";
 
-const HomePage = ({}: Types.Props) => {
-  return <></>;
+const HomePage = () => {
+  return (
+    <Styles.PageContainer>
+      <UsersList />
+    </Styles.PageContainer>
+  );
 };
 
 export default HomePage;
